@@ -1,0 +1,73 @@
+body{
+  background-color: #F5F5DD;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recipe-header{
+  margin-top: 200px;
+}
+
+h1{
+  color: #8B4411;
+}
+
+button{
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  background-color: #CC9767;
+  color: white;
+  border: 1px solid #CC9767;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+button:hover{
+  background-color: #8B4411;
+  color: white;
+  border: 1px solid #8B4411;
+}
+
+.recipe-book{
+  width: 75%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.icon{
+  width: 75px;
+  height: 75px;
+  margin-top: 10px;
+  background-image: url('chef.jpg');
+  background-size: cover;
+}
+
+.icon:hover{
+  background-image: url('chef-hover.jpg');
+}
+
+a{
+  margin-top: 10px;
+  color: #CC9767;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #8B4411;
+}
+
+p{
+  margin: 25px;
+  color: #8B4411;
+}
+
+#goBack{
+  width: 25%;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Validate CNP</title>
+  </head>
+  <body>
+    <h1>Validate CNP</h1>
+    <div class="cnp">
+      <label for="">Type your CNP: </label>
+      <input
+        type="text"
+        name=""
+        value=""
+        minleght="13"
+        maxlength="13"
+        size="13"
+        id="cnp"
+      />
+    </div>
+    <div class="dob">
+      <label for="">Day: </label>
+      <input
+        type="text"
+        name=""
+        value=""
+        minleght="2"
+        maxlength="2"
+        size="2"
+        id="day"
+      />
+      <label for="">Month: </label>
+      <input
+        type="text"
+        name=""
+        value=""
+        minleght="2"
+        maxlength="2"
+        size="2"
+        id="month"
+      />
+      <label for="">Year: </label>
+      <input
+        type="text"
+        name=""
+        value=""
+        minleght="4"
+        maxlength="4"
+        size="4"
+        id="year"
+      />
+    </div>
+    <div class="validate">
+      <button type="button" name="button" id="verify" onclick="verify()">
+        Verify
+      </button>
+    </div>
+    <script src="main.js" charset="utf-8"></script>
+  </body>
+</html>

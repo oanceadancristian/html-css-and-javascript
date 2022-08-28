@@ -1,0 +1,9 @@
+.generate-random-color{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button{
+  padding: 10px;
+}

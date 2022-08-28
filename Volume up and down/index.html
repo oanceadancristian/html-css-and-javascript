@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title></title>
+  </head>
+  <body>
+    <h1>Volume up and down</h1>
+    <div class="container">
+      <div class="buttons">
+        <div class="volume-up">
+          <button
+            type="button"
+            name="button"
+            onclick="volumeUp()"
+            class="button"
+          >
+            Volume Up
+          </button>
+        </div>
+        <div class="volume-down">
+          <button
+            type="button"
+            name="button"
+            onclick="volumeDown()"
+            class="button"
+          >
+            Volume Down
+          </button>
+        </div>
+      </div>
+      <div class="volume">
+        <p>The VOLUME is now at:</p>
+        <div class="bar">
+          <div class="progress">
+            <p><span id="volume">0</span>%</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js" charset="utf-8"></script>
+  </body>
+</html>

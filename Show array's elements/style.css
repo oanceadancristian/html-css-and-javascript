@@ -1,0 +1,18 @@
+body{
+  background-color: lightgray;
+}
+
+h1{
+  text-align: center;
+}
+
+button{
+  width: 10%;
+  margin: 50px auto;
+  padding: 15px;
+  background-color: green;
+  font-size: 15px;
+  color: white;
+  border: 2px solid darkgreen;
+  display: block;
+}
