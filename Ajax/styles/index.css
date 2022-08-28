@@ -1,0 +1,126 @@
+body {
+  background-color: #1f1f1f;
+  color: #f5c518;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #101010;
+  height: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+li {
+  list-style-type: none;
+  margin: 0 1.5em;
+}
+
+li a {
+  text-decoration: none;
+  color: #d3d3d3;
+}
+
+li a:hover {
+  text-decoration: none;
+  color: #f5c518;
+}
+
+.movies {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 5em;
+  margin: 2em;
+}
+
+.movie-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #2e0c51;
+  border: 0.1em solid #303030;
+  border-radius: 0.5em;
+  margin: 0 5em;
+  padding: 1em 1em 2em 1em;
+  box-shadow: 0 0 1em 0.25em black;
+}
+
+.movie-body:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 1em 0.25em #757575;
+  transform: translate(0.25em, 0.25em);
+  transition: 0.5s;
+}
+
+a {
+  text-decoration: none;
+  color: #d3d3d3;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  border-radius: 0.25em;
+  height: 22.5em;
+}
+
+.title {
+  color: white;
+  font-weight: bold;
+  margin-top: 0.5em;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.runtime-and-genre {
+  color: white;
+  font-size: 0.9em;
+  margin-top: 1em;
+  text-align: center;
+}
+
+.rating {
+  margin-top: 1em;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.fa-solid.fa-star.fa-sm {
+  color: #f5c518;
+}
+
+.pagination {
+  margin: 2.5em 0;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination a {
+  display: inline-block;
+  margin: 0 0.25em;
+  padding: 0.75em 1.25em;
+  text-decoration: none;
+  color: #d3d3d3;
+  background-color: #101010;
+  border: 0.1em solid #101010;
+}
+
+.pagination a:hover {
+  background-color: #757575;
+  border: 0.1em solid #757575;
+}
