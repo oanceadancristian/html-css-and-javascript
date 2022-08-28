@@ -1,0 +1,72 @@
+body {
+  background-color: lightgray;
+  font-size: 1.5em;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 3em;
+  color: rgb(69, 10, 124);
+}
+
+.play {
+  width: 100vw;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.reset {
+  width: 100vw;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.reset > button {
+  padding: 2em 6em;
+}
+
+button {
+  padding: 2em;
+  border: 0.05em solid black;
+  border-radius: 0.5em;
+  background-color: rgb(69, 10, 124);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0.25em 0.25em 0.25em black;
+}
+
+button:nth-of-type(2n) {
+  margin: 0 3em;
+}
+
+button:active {
+  box-shadow: 0.25em 0.25em 1em black;
+}
+
+button:hover {
+  background-color: blueviolet;
+  box-shadow: inset 0.25em 0.25em 0.25em rgb(69, 10, 124);
+}
+
+.far {
+  margin-right: 0.5em;
+}
+
+.player-wins {
+  color: green;
+}
+
+.computer-wins {
+  color: red;
+}
+
+.draw {
+  color: black;
+}
