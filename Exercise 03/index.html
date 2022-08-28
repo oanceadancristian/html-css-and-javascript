@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/jpg" href="fav-icon.jpg"/>
+    <script src="https://kit.fontawesome.com/261cf0f09a.js" crossorigin="anonymous"></script>
+    <title>Exercise 03</title>
+  </head>
+  <body>
+
+    <div class="user-input-container">
+      <div class="user-header">
+        <h1>Exercise 03</h1>
+      </div>
+      <div class="user-input">
+        <div class="user-input-1">
+          <label for="user-first-number">First number: </label>
+          <input type="text" name="" value="" id="user-first-number">
+          <div class="user-display-error">
+            <p> <span id="user-display-error-1"></span> </p>
+          </div>
+        </div>
+        <div class="user-input-2">
+          <label for="user-second-number">Second number: </label>
+          <input type="text" name="" value="" id="user-second-number">
+          <div class="user-display-error">
+            <p> <span id="user-display-error-2"></span> </p>
+          </div>
+        </div>
+      </div>
+      <div class="user-operations">
+        <div class="user-calculate">
+          <button type="button" name="button" id="calculate-button" onclick="userCalculate()"><i class="fa-solid fa-calculator"></i> Calculate</button>
+        </div>
+        <div class="user-reset">
+          <button type="button" name="button" id="reset-button" onclick="userReset()"><i class="fa-solid fa-arrow-rotate-right"></i> Reset</button>
+        </div>
+      </div>
+      <div class="user-display">
+        <p> <span id="user-display-result"></span> </p>
+        <p> <span id="user-display-warning"></span> </p>
+      </div>
+    </div>
+
+    <script src="utils.js" charset="utf-8"></script>
+    <script src="main.js" charset="utf-8"></script>
+  </body>
+</html>
