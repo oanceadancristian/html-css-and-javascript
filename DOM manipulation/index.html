@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="scripts/main.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="hidden" data-banner>
+        <div class="check">
+          <i class="fa-solid fa-square-check fa-xl"></i>
+          <p class="success">
+            Thank you for contacting us, <span data-success-message></span>
+          </p>
+        </div>
+        <div class="close" data-close>
+          <i class="fa-solid fa-xmark fa-xl"></i>
+        </div>
+      </div>
+      <div class="form-body">
+        <div class="form-text">
+          <form action="" method="post">
+            <div class="first-text-input">
+              <input
+                type="text"
+                id="first-name"
+                name="first-name"
+                data-first-name
+                placeholder="First Name"
+              />
+            </div>
+            <div class="second-text-input">
+              <input
+                type="text"
+                id="last-name"
+                name="last-name"
+                data-last-name
+                placeholder="Last Name"
+              />
+            </div>
+            <p class="gender" data-gender>Gender</p>
+            <div class="radio-buttons">
+              <div class="first-radio-button">
+                <input
+                  type="radio"
+                  id="male"
+                  name="gender"
+                  value="male"
+                  data-male
+                />
+                <label for="male">M</label>
+              </div>
+              <div class="second-radio-button">
+                <input
+                  type="radio"
+                  id="female"
+                  name="gender"
+                  value="female"
+                  data-female
+                />
+                <label for="female">F</label>
+              </div>
+            </div>
+            <div class="message">
+              <textarea name="message" data-message>Your message here...</textarea
+              >
+            </div>
+            <div class="submit">
+              <button data-submit>Submit</button>
+            </div>
+          </div>
+      </form>
+        <div class="form-image"></div>
+      </div>
+    </div>
+  </body>
+</html>

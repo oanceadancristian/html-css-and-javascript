@@ -1,0 +1,133 @@
+body {
+  background-color: gold;
+}
+
+.container {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hidden {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 2em;
+  background-color: #def0d9;
+  border-radius: 0.25em;
+  visibility: hidden;
+  margin-bottom: 1em;
+}
+
+.check {
+  margin-left: 0.5em;
+  color: #388d43;
+}
+
+.success {
+  display: inline;
+  color: #388d43;
+  font-size: 1.1em;
+}
+
+.close {
+  margin-right: 0.5em;
+  color: #388d43;
+  cursor: pointer;
+}
+
+.form-body {
+  display: flex;
+  height: 55vh;
+  border: 0.1em solid #797979;
+  background-color: white;
+  border-radius: 0.25em;
+}
+
+.form-text {
+  width: 60%;
+  margin: 1.5em 0;
+}
+
+.form-image {
+  width: 40%;
+  margin: 1.5em;
+  background-image: url('/images/contact.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+input[type='text'],
+textarea {
+  width: 65%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border-width: 0.15em;
+}
+
+input[type='text'] {
+  height: 1.5em;
+}
+
+input::placeholder {
+  color: #cacbcc;
+}
+
+.gender {
+  margin-left: 17%;
+  margin-bottom: 0;
+}
+
+input[type='radio'] {
+  margin-left: 33%;
+}
+
+textarea {
+  height: 10em;
+  resize: none;
+}
+
+button {
+  background-color: #169cb8;
+  border: 0.1em solid #227c8a;
+  border-radius: 0.25em;
+  color: white;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  display: block;
+}
+
+button:hover {
+  background-color: #227c8a;
+  border: 0.1em solid #169cb8;
+}
+
+.first-text-input,
+.second-text-input {
+  margin-bottom: 1em;
+}
+
+.second-radio-button {
+  margin-bottom: 1em;
+}
+
+.message {
+  margin-bottom: 1.25em;
+}
+
+.submit {
+  width: 84%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.red {
+  border-color: red;
+}
+
+.gender-red {
+  color: red;
+}
